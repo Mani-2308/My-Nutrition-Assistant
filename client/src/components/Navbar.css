@@ -1,0 +1,105 @@
+.navbar {
+  height: 70px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 0 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin: 15px;
+}
+
+.navbar-left{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.navbar-title{
+  font-weight:700;
+  color:#16a34a;
+  margin:0;
+}
+
+.navbar-right{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+/* Hamburger Button */
+
+.menu-btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  width:45px;
+  height:45px;
+
+  border:none;
+  border-radius:10px;
+
+  background:#16a34a;
+  color:#fff;
+
+  font-size:24px;
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.menu-btn:hover{
+  background:#15803d;
+  transform:scale(1.05);
+}
+
+/* Tablet */
+
+@media(max-width:991px){
+
+  .navbar{
+    margin:10px;
+    padding:0 15px;
+    height:65px;
+  }
+
+  .navbar-title{
+    font-size:20px;
+  }
+
+  .navbar-right{
+    gap:8px;
+  }
+
+  .navbar-right .btn{
+    padding:6px 10px;
+    font-size:13px;
+  }
+
+}
+
+/* Mobile */
+
+@media(max-width:576px){
+
+  .navbar{
+    padding:0 10px;
+  }
+
+  .navbar-title{
+    font-size:17px;
+  }
+
+  .navbar-right{
+    gap:5px;
+  }
+
+  .navbar-right .btn{
+    padding:5px 8px;
+    font-size:12px;
+  }
+}
