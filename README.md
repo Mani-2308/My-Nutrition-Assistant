@@ -1,5 +1,7 @@
 # Nutrition Assistant
 
+video-demolink:- https://drive.google.com/file/d/18-1YC0Q49pqhbYIv-sP-A5lzFPEBYEga/view?usp=drive_link
+
 Nutrition Assistant is a full-stack web application for tracking meals, calculating nutrition, generating diet plans, and managing user profiles. The project includes a React frontend and an Express/MongoDB backend with Firebase authentication support.
 
 ## Features
